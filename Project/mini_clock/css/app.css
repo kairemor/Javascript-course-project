@@ -1,0 +1,28 @@
+.content{
+    width: 60% ; 
+    margin: 20% ; 
+    height: 500px;
+    background-color: #f43def ; 
+    text-align: center ; 
+}
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px ; 
+}
+.mini-title{
+    font-display: unset ;
+    font-kerning: normal;
+    font-weight: bold;
+}
+#colo{  
+
+    font-family: Orbitron;
+    letter-spacing: 7px;
+    font-size: 60px ;
+}
+#hour{
+    font-display: auto ; 
+    margin: 10% ; 
+    background-color: fuchsia ; 
+    font-size: 40px ; 
+}

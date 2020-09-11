@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Les evenements et la methodes $(this)</title>
+	<script type="text/javascript" src="../src/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	<p>Paragraphe</p>
+	<p class="para"> Paragraphe avec la classe para clique me </p>
+	<p id="para1">Paragraphe avec l'identifiant para1</p>
+<script type="text/javascript">
+	$(function(){
+		$(".para").click(function(){
+			$(this).css("color" , "red") 
+			$("#para1").css("font-size" , "30px")
+		}) ;
+		
+	})
+	
+</script>	
+</body>
+</html>

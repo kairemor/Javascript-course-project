@@ -1,0 +1,174 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.clearfix* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: 0px ;
+    padding: 0px ;
+    background-color: rgba(224, 127, 233, 0.979) ;
+    font-family: 'Times New Roman', Times, serif ;
+    position: relative;
+    height: 100vh;
+}
+.container {
+    display: flex ;
+    background-color: aliceblue ;
+    width: 800px ;
+    height: 600px ;
+    margin: auto ;
+    margin-top: 4% ;
+    border-radius: 10px ;
+}
+
+/* .panelplayer1 {
+    float: right;
+    background-color: aliceblue ;
+    width: 400px;
+    height: 600;
+    margin: auto ;  
+    font-style: normal ;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center ;
+    font-size: 70px ;
+    margin-top: 3% ; 
+} */
+
+.panelplayer2  , .panelplayer1 {
+    float: right;
+    background-color: aliceblue ;
+    width: 400px;
+    height: 600;
+    font-style: normal ;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center ;
+    font-size: 50px ;
+    /* margin-top: 3% ;  */
+
+    /* margin: auto ;  */
+}
+/* .panelplayer1 h2 {
+    font-style: normal ;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center ;
+    font-size: 70px ;
+    margin-top: 3% ; 
+}
+.panelplayer2 h2 {
+    font-style: normal ;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center ;
+    font-size: 70px ;
+    margin-top: 3% ; 
+} */
+.active {
+    background-color: rgb(195, 217, 236) ;
+    width: 400px;
+    height: 600;
+}
+.score1 {
+    margin: auto ;
+    margin-top: 40px;
+    text-align: center ;
+    font-size: 100px ; 
+}
+.score2 {
+    margin: auto ;
+    margin-top: 40px;
+    text-align: center ;
+    font-size: 100px ; 
+}
+/* .score1 h2 {
+    font-size: 60px ;
+    margin-top: 19px ;
+}
+.score2 h2 {
+    font-size: 60px ;
+    margin-top: 19px ;
+} */
+img {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 30%;
+}
+.img1 {
+  top : 20% ;
+}
+.img2{
+  top: 30% ;
+}
+button {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:hover i { margin-right: 20px; }
+
+.roll_dice {
+  top: 45% ;
+}
+.hold {
+  top: 50% ;
+}
+/* .new_game {
+  top: 50px;
+} */
+.current_score1 {
+  position : absolute;
+  width: 50px ;
+  height: 50px ;
+  background-color: #ddd ;
+  left : 38%  ;
+  top: 45% ;
+  font-size: 40px ;
+}
+.current_score2 {
+    position : absolute;
+    width: 50px ;
+    height: 50px ;
+    background-color: #ddd ;
+    right : 38%  ;
+    top: 45% ;
+    font-size: 40px ; 
+  }
+  /* .winner{
+    float: right;
+    background-color: aliceblue ;
+    width: 400px;
+    height: 600;
+    font-style: normal ;
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: center ;
+    font-size: 70px ;
+  } */
